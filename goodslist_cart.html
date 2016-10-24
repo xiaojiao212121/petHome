@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>购物车商品列表</title>
+<link rel="stylesheet" type="text/css" href="css/goodslist_cart.css"/>
+</head>
+
+<body>
+<!--购物车商品列表盒子-->
+<div class="Jcart-Box">
+<!--购物车中商品列表-->
+   <div class="cart-goods-list">
+   <!--列表头部-->
+       <div class="list-head">
+           <div class="col col-check">
+             <i class="icon-checkbox" id="selectAll">√</i>全选
+           </div> 
+           <div class="col col-img">&nbsp;</div>
+           <div class="col col-name">商品名称</div>
+           <div class="col col-price">商品单价</div>
+           <div class="col col-num">数量</div>
+           <div class="col col-total">小计</div>
+           <div class="col col-action">操作</div>
+       </div>
+   <!--列表body-->
+       <div class="list-body" id="JCartListBody">
+       <!--放一条商品记的录盒子-->
+         <div class="item-box">
+           <div class="item-table J-CartGoods">
+               <div class="item-row">
+                   <div class="col col-check">
+                       <i class="icon-checkbox" id="selectAll">√</i>
+                   </div> 
+                   <div class="col col-img">
+                      <a href="#"><img  src="http://i1.mifile.cn/a1/pms_1476004735.12541492!80x80.jpg" width="80px" height="80px"/></a>
+                   </div>
+                   <div class="col col-name">
+                      <h3 class="name"><a href="#"> 小米羊毛触屏手套 男款 深蓝/浅米 均码 </a></h3>
+                   </div>
+                   <div class="col col-price">49元</div>
+                   <div class="col col-num">1</div>
+                   <div class="col col-total">49元</div>
+                   <div class="col col-action"><a href="#">删除</a></div> 
+               </div>    
+           </div>
+         </div>
+         
+         
+           <!--第二件商品开始，等到从数据库获取数据的时候即可删除-->
+
+         <div class="item-box">
+           <div class="item-table J-CartGoods">
+               <div class="item-row">
+                   <div class="col col-check">
+                       <i class="icon-checkbox" id="selectAll">√</i>
+                   </div> 
+                   <div class="col col-img">
+                      <a href="#"><img  src="http://i1.mifile.cn/a1/pms_1476004735.12541492!80x80.jpg" width="80px" height="80px"/></a>
+                   </div>
+                   <div class="col col-name">
+                      <h3 class="name"><a href="#"> 小米羊毛触屏手套 男款 深蓝/浅米 均码 </a></h3>
+                   </div>
+                   <div class="col col-price">49元</div>
+                   <div class="col col-num">1</div>
+                   <div class="col col-total">49元</div>
+                   <div class="col col-action"><a href="#">删除</a></div> 
+               </div>    
+           </div>
+         </div>
+       </div>
+   </div>
+   <div class="raise-tobuy"></div>
+   <!--结算部分-->  
+   <div class="cart-bar">
+      <a class="select-left" href="#">继续购物</a>
+      <span class="total-price">合计：<span>98元</span></span>
+      <div class="to-pay"><a href="#">去结算</a></div>
+   </div>
+   
+</div>
+</body>
+</html>
